@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="RealTrafficFix">
+      <UniqueIdentifier>{9161fb98-1db7-4da1-a8f3-de0f3d1af7c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RealTrafficFix\IniReader">
+      <UniqueIdentifier>{c384e362-1c88-44d0-bc46-1e6be52543cd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RealTrafficFix.cpp">
+      <Filter>RealTrafficFix</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IniReader\ini_parser.hpp">
+      <Filter>RealTrafficFix\IniReader</Filter>
+    </ClInclude>
+    <ClInclude Include="IniReader\IniReader.h">
+      <Filter>RealTrafficFix\IniReader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="IniReader\LICENSE.txt">
+      <Filter>RealTrafficFix\IniReader</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IniReader\README.md">
+      <Filter>RealTrafficFix\IniReader</Filter>
+    </None>
+    <None Include=".gitignore">
+      <Filter>RealTrafficFix</Filter>
+    </None>
+    <None Include="LICENSE">
+      <Filter>RealTrafficFix</Filter>
+    </None>
+    <None Include="README.md">
+      <Filter>RealTrafficFix</Filter>
+    </None>
+  </ItemGroup>
+</Project>
